@@ -10,3 +10,7 @@ O Objetivo do projeto era desenvolver um site para realizar uma simulação do c
 # Calculadora de Corriga
 Calculadora de velocidade média e pace para o cliente
 <img src="Imgs/Calculadora.png" />
+
+# Cálculo de IMC
+Calculadora de IMC
+<img src="Imgs/IMC.png" />

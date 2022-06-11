@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cálculo de IMC</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Cálculo de IMC</h1>
+    </header>
+    <form>
+        <div>
+            <label >Nome</h4>
+            <input type="text" id="txt_nome" class="input"/>
+        </div>
+        <br>
+        <div>
+            <label >Altura</h4>
+            <input type="number" id="altura" class="input" placeholder="Metros (ex: 1,65m)"/>
+        </div>
+        <br>
+        <div>
+            <label>Peso</h4>
+            <input type="number" id="peso" class="input" placeholder="Quilos (ex: 65kg)"/>
+        </div>
+        <br>
+        <div>
+            <button type="reset" id="Limpar"><img src="https://img.icons8.com/material-outlined/24/0fcf9e/recurring-appointment.png"/></button>
+            <button type="button"id="Calcular"><img src="https://img.icons8.com/material-sharp/24/0fcf9e/ok--v1.png"/></button>
+        </div>
+    </form>
+    <div style="text-align: center;display:none;" id="resultado">
+        <h1 id="nome"></h1>
+        <h3 style="color:#c5c5c5">Você está</h3>
+        <h1 id="situacao"></h1>
+        <h3 style="color:#c5c5c5">IMC</h3>
+        <h1 id="imc"></h1>
+        <h3 style="color:#c5c5c5">Seu peso ideal é entre</h3>
+        <h1 id="pesoIdeal"></h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
