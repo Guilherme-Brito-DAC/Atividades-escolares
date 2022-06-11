@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Zen+Maru+Gothic:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif; 
+    font-weight: 600;
+    background-image: url("https://brasilrun.com.br/wp-content/uploads/2020/02/velocidade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #ebebeb;
+    padding: 2rem;
+}
+
+.nome input{
+    width: 100%;
+}
+
+form div{
+    margin-bottom: 1rem;
+}
+
+.nome{
+    width: 100%;
+}
+
+.pesoEdistancia
+{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.pesoEdistancia div{
+    width: 100%;
+}
+
+.pesoEdistancia div input{
+    width: 100%;
+}
+
+input{
+    outline: none;
+    background-color: white;
+    color:rgb(26, 26, 26);
+    font-weight: 500;
+    padding: 1rem;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.buttons{
+    display:flex;
+    gap: 30px;
+}
+
+button{
+    padding: 1rem;
+    background-color: #333333;
+    color:white;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tempo{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.tempo input{
+    width: 100%;
+}
+
+.resultado
+{
+    text-align: center;
+    margin-top:5rem;
+    font-size: 25px;
+}

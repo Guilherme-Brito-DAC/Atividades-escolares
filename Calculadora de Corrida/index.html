@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Corrida</title>
+</head>
+
+<body>
+    <form>
+        <h1 style="text-align: center;">Calculadora de velocidade média e Pace</h1><br>
+        <div class="nome">
+            <label>Nome:</label><br>
+            <input type="text" placeholder="Nome" id="txt_nome" required /><br>
+        </div>
+        <div class="pesoEdistancia">
+            <div>
+                <label>Peso(kg):</label><br>
+                <input type="number" min="1" placeholder="Peso(kg)" id="txt_peso" required /><br>
+            </div>
+            <div>
+                <label>Distância(km):</label><br>
+                <input type="number" min="0" placeholder="Distância(km)" id="txt_distancia" required /><br>
+            </div>
+        </div>
+        <div class="tempo">
+            <div>
+                <label>Horas:</label><br>
+                <input type="number" min="0" value="0" placeholder="Horas" id="txt_horas" required /><br>
+            </div>
+            <div>
+                <label>Minutos:</label><br>
+                <input type="number" min="0" value="0" placeholder="Minutos" id="txt_minutos" required /><br>
+            </div>
+            <div>
+                <label>Segundos:</label><br>
+                <input type="number" min="0" value="0" placeholder="Segundos" id="txt_segundos" required /><br>
+            </div>
+        </div>
+        <div class="buttons">
+            <button type="button" id="btn_calcular">Calcular</button>
+            <button type="reset" id="btn_limpar">Limpar</button>
+        </div>
+    </form>
+    <p class="resultado" id="lbl_resultado"></p>
+</body>
+<script src="./script.js"></script>
+
+</html>
