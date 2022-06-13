@@ -3,7 +3,7 @@ Esse repositório tem a função de guardar algumas atividades que realizei dura
 
 
 # Financiamento de Carro 
-O Objetivo do projeto era desenvolver um site para realizar uma simulação do cálculo de um financiamento de um carro#
+O Objetivo do projeto era desenvolver um site para realizar uma simulação do cálculo de um financiamento de um carro
 <img src="Imgs/Finaciamento.png" />
 
 
