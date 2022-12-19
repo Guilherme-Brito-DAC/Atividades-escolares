@@ -7,7 +7,7 @@ O Objetivo do projeto era desenvolver um site para realizar uma simulação do c
 <img src="Imgs/Finaciamento.png" />
 
 
-# Calculadora de Corriga
+# Calculadora de Corrida
 Calculadora de velocidade média e pace para o cliente
 <img src="Imgs/Calculadora.png" />
 
